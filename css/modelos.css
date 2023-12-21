@@ -1,0 +1,52 @@
+#modelos {
+    margin-top: 3em;
+}
+#modelos h2 {
+    color: #222F33;
+    margin-bottom: 1em;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#modelos .cards {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 3em;
+    align-items: center;
+    
+}
+.text_modelo {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+#modelos h3 {
+    color: #222F33;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+#modelos p{
+    color: #646D70;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    line-height: 1.7em;
+    
+}
+#modelos  img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.text_modelo a {
+    text-decoration: none;
+    color: #222F33;
+    font-weight: bolder;
+}
+.text_modelo a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+#contato {
+    background-color: #222F33;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#contato .container {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+#contato h2 {
+    font-size: 2em;
+}
+#contato form {
+    margin-top: 2em;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    width: 450px;
+}
+#contato form input{
+    padding: 8px 24px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+#contato form textarea {
+    height: 200px;
+    padding: 16px;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contato form .button:hover {
+    cursor: grab;
+    font-weight: 600;
+}
+
+#contato address {
+    align-self: center;
+    font-size: 1.2em;
+    width: 500px;
+    line-height: 1.5em;
+}

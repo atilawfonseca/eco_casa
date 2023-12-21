@@ -1,0 +1,29 @@
+#quem-somos {
+    margin-top: 3em;
+    display: flex;
+    gap: 3em;
+    color: #646D70;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    
+    
+}
+.text-quem-somos {
+    justify-self: center;
+}
+
+.text-quem-somos h2{
+    font-size: 2em;
+    color: #222F33;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+
+.text-quem-somos p {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    text-align: justify;
+    height: 100%;
+}
+

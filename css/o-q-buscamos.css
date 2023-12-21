@@ -1,0 +1,31 @@
+#o-q-buscamos {
+    margin-top: 2.5em;
+    background-color: #222F33;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    
+}
+#o-q-buscamos h2 {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+}
+#o-q-buscamos .paragrafos {
+    display: flex;
+    gap: 2.5em;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+#o-q-buscamos .paragrafos p {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    text-align: justify;
+    width: 30%;
+}
+
+#o-q-buscamos .paragrafos p span {
+    font-weight: 700;
+}

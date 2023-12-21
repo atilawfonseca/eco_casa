@@ -1,0 +1,17 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(quem-somos.css);
+@import url(o-q-buscamos.css);
+@import url(modelos.css);
+@import url(contato.css);
+@import url(footer.css);
+
+.container {
+    margin: 0px auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
